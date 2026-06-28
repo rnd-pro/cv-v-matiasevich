@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://MakerDrive.github.io/cv-v-matiasevich/sitemap.xml

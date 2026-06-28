@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Collection Name",
+    "cdn": "cloudflare",
+    "syncDataPath": "./cit/cit-sync-data.json",
+    "imsDataFolder": "./cit/ims-widgets-data/",
+    "imsDataMinify": true,
+    "imgSrcFolder": "./cit/cit-store/",
+    "apiKeyPath": "./cit/CIT_API_KEY",
+    "projectId": "<YOUR_PROJECT_ID>",
+    "imgUrlTemplate": "https://<YOUR_DOMAIN>/images/{UID}/{VARIANT}",
+    "previewUrlTemplate": "https://<YOUR_DOMAIN>/images/{UID}/{VARIANT}",
+    "imsUrlTemplate": "https://<YOUR_DOMAIN>/ims/{HASH}.json",
+    "variants": ["120", "320", "640", "860", "1024", "1200", "2048", "max"],
+    "imgTypes": ["png", "jpg", "jpeg", "webp", "gif", "svg"],
+    "wsPort": 8080,
+    "httpPort": 8081
+  }
+]

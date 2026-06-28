@@ -1,0 +1,121 @@
+export default /*css*/ `
+@view-transition {
+  navigation: auto;
+}
+
+:root {
+  --clr-1: var(--sn-bg, hsl(0 0% 10%));
+  --clr-2: var(--sn-text, hsl(0 0% 94%));
+
+  --gap-min: 2px;
+  --gap-mid: 10px;
+  --gap-max: 20px;
+
+  --ui-size: 40px;
+  --col-w: 960px;
+
+  --calc-gap-aside: clamp(calc((100vw - var(--col-w)) / 2 - var(--gap-mid)), var(--gap-max), var(--gap-max));
+  --calc-top-pan-height: calc(var(--ui-size) + var(--gap-mid) * 2);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--sn-font, -apple-system, BlinkMacSystemFont, sans-serif);
+  background-color: var(--clr-1);
+  color: var(--clr-2);
+}
+
+body {
+  opacity: 1;
+  transition: opacity 1s;
+
+  @starting-style {
+    opacity: 0;
+  }
+}
+
+article {
+  display: block;
+  margin: auto;
+  max-width: var(--col-w);
+  min-height: calc(100vh - var(--ui-size) * 2);
+  padding: var(--gap-max);
+
+  blockquote {
+    display: block;
+    margin: 0;
+    padding: var(--gap-max);
+    border: var(--gap-min) solid currentColor;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  a {
+    color: currentColor;
+    font-weight: bold;
+  }
+
+  img[src^="https://rnd-pro.com/idn/"] {
+    width: 100%;
+  }
+
+  svg {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center center;
+
+    path {
+      vector-effect: non-scaling-stroke;
+    }
+  }
+
+  ul {
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    li {
+      position: relative;
+      display: block;
+      padding: 10px;
+      padding-left: 30px;
+      border-left: var(--gap-min) solid currentColor;
+      margin-bottom: 0;
+
+      &::before {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 10px;
+        height: var(--gap-min);
+        border-bottom: var(--gap-min) solid currentColor;
+        content: "";
+        color: currentColor;
+        margin-right: var(--gap-mid);
+      }
+    }
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    th, td {
+      padding: var(--gap-mid);
+      border: var(--gap-min) solid currentColor;
+    }
+  }
+}
+`;

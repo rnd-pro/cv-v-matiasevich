@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "pretty": true,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "lib": [
+        "ESNext",
+        "ESNext.Array",
+        "DOM",
+        "DOM.Iterable",
+        "WebWorker"
+      ],
+    "allowJs": true,
+    "checkJs": true,
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["node", "jsda-kit"],
+    "noEmit": true,
+    "maxNodeModuleJsDepth": 0,
+    "preserveSymlinks": true,
+  },
+  "include": [
+    "src/**/*.js",
+    "project.cfg.js",
+    "types/"
+  ],
+  "exclude": [
+    "TMP/**",
+    ".agent-portal/**",
+    "dist/**",
+    "node_modules/**"
+  ]
+}

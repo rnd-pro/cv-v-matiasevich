@@ -1,0 +1,50 @@
+{
+  "name": "cv-v-matiasevich",
+  "version": "0.1.0",
+  "description": "Vladimir Matiasevich CV, portfolio, and R&D project map built with JSDA-Kit",
+  "keywords": [
+    "jsda",
+    "jsda-kit",
+    "symbiote.js",
+    "portfolio",
+    "blog",
+    "github-pages"
+  ],
+  "homepage": "https://MakerDrive.github.io/cv-v-matiasevich/",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MakerDrive/cv-v-matiasevich.git"
+  },
+  "license": "MIT",
+  "author": "MakerDrive",
+  "type": "module",
+  "scripts": {
+    "test": "npm run check:types && npm run test:unit",
+    "check:types": "npx tsc --noEmit",
+    "test:unit": "node --test test/unit/*.test.js",
+    "test:browser:resources": "node --test test/browser/*.test.js",
+    "copy-robots": "cp ./src/static-pages/robots.txt ./dist/robots.txt",
+    "copy-404": "sed 's|<base href=[^>]*>|<base href=/cv-v-matiasevich/>|' ./dist/index.html > ./dist/404.html",
+    "copy-force-worker": "mkdir -p ./dist/js && cp ./node_modules/symbiote-ui/canvas/ForceWorker.js ./dist/js/ForceWorker.js",
+    "write-material-symbols-css": "node ./scripts/write-material-symbols-css.js",
+    "generate-pdfs": "node ./scripts/generate-portfolio-pdfs.js",
+    "generate-llms": "node ./scripts/generate-llms-txt.js",
+    "build": "npx jsda build && npm run copy-robots && npm run copy-404 && npm run write-material-symbols-css && npm run copy-force-worker && npm run generate-pdfs && npm run generate-llms"
+  },
+  "dependencies": {
+    "@symbiotejs/symbiote": "3.8.0-webmcp.2",
+    "jsda-kit": "1.5.3",
+    "symbiote-ui": "0.3.0-alpha.50"
+  },
+  "overrides": {
+    "@symbiotejs/symbiote": "$@symbiotejs/symbiote",
+    "esbuild": "0.28.1",
+    "jsda-kit": "1.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.2",
+    "cloud-images-toolkit": "^1.3.2",
+    "pdfkit": "^0.19.1",
+    "typescript": "^6.0.3"
+  }
+}
