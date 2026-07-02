@@ -290,7 +290,7 @@ test('portfolio profile renders languages, contact, and separated experience sec
   assert.match(source, /label: tPortfolio\('profile\.achievement\.hardware\.label'\)/);
   assert.match(source, /title: tPortfolio\('profile\.careerTitle'\)/);
   assert.match(source, /label: tPortfolio\('profile\.career\.megavisor\.label'\)/);
-  assert.match(source, /const PORTFOLIO_ONLINE_CV_URL = 'https:\/\/MakerDrive\.github\.io\/cv-v-matiasevich\/';/);
+  assert.match(source, /const PORTFOLIO_ONLINE_CV_URL = 'https:\/\/rnd-pro\.github\.io\/cv-v-matiasevich\/';/);
   assert.match(source, /function getProfileOnlineCvUrl\(locale = portfolioLocalization\.locale\)/);
   assert.match(source, /\| --- \| --- \|/);
   assert.match(source, /tPortfolio\('profile\.locationLabel'\)/);

@@ -14,7 +14,7 @@ const rootDir = path.resolve(__dirname, '..');
 const distDownloadsDir = path.join(rootDir, 'dist', 'downloads');
 const avatarPath = path.join(rootDir, 'src', 'static-pages', 'avatar', 'avatar.png');
 const packageJson = JSON.parse(fs.readFileSync(path.join(rootDir, 'package.json'), 'utf8'));
-const siteUrl = new URL(packageJson.homepage || 'https://MakerDrive.github.io/cv-v-matiasevich/');
+const siteUrl = new URL(packageJson.homepage || 'https://rnd-pro.github.io/cv-v-matiasevich/');
 if (!siteUrl.pathname.endsWith('/')) siteUrl.pathname = `${siteUrl.pathname}/`;
 
 const PDF_DOWNLOADS = Object.freeze({

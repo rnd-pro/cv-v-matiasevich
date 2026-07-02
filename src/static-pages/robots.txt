@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://MakerDrive.github.io/cv-v-matiasevich/sitemap.xml
+Sitemap: https://rnd-pro.github.io/cv-v-matiasevich/sitemap.xml

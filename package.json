@@ -10,10 +10,10 @@
     "blog",
     "github-pages"
   ],
-  "homepage": "https://MakerDrive.github.io/cv-v-matiasevich/",
+  "homepage": "https://rnd-pro.github.io/cv-v-matiasevich/",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/MakerDrive/cv-v-matiasevich.git"
+    "url": "git+ssh://git@github.com/rnd-pro/cv-v-matiasevich.git"
   },
   "license": "MIT",
   "author": "MakerDrive",

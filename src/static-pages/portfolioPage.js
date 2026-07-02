@@ -35,7 +35,7 @@ export async function getPortfolioPage({
     `,
     FOOTER_CONTENT: /*html*/ `
       <span>Built with JSDA and symbiote-ui</span>
-      <a href="https://github.com/MakerDrive/cv-v-matiasevich">GitHub source</a>
+      <a href="https://github.com/rnd-pro/cv-v-matiasevich">GitHub source</a>
     `,
     SIDE_PANEL_ATTRS: 'disabled hidden',
   });

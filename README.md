@@ -37,7 +37,7 @@ The default dynamic server port is `3000`.
 
 The workflow at `.github/workflows/deploy-pages.yml` builds `dist/` and deploys it to GitHub Pages on pushes to `main`.
 
-Public URL: https://MakerDrive.github.io/cv-v-matiasevich/
+Public URL: https://rnd-pro.github.io/cv-v-matiasevich/
 
 Static page import maps are generated from installed npm package versions, so browser CDN URLs stay aligned with `package-lock.json`.
 

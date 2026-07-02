@@ -59,7 +59,7 @@ export default {
   },
   sitemap: {
     enabled: true,
-    baseUrl: 'https://MakerDrive.github.io/cv-v-matiasevich/',
+    baseUrl: 'https://rnd-pro.github.io/cv-v-matiasevich/',
     exclude: [
       '/dashboard/',
       '/404/',

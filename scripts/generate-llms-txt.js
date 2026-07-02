@@ -12,7 +12,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..');
 const distDir = path.join(rootDir, 'dist');
 const packageJson = JSON.parse(fs.readFileSync(path.join(rootDir, 'package.json'), 'utf8'));
-const siteUrl = new URL(packageJson.homepage || 'https://MakerDrive.github.io/cv-v-matiasevich/');
+const siteUrl = new URL(packageJson.homepage || 'https://rnd-pro.github.io/cv-v-matiasevich/');
 if (!siteUrl.pathname.endsWith('/')) siteUrl.pathname = `${siteUrl.pathname}/`;
 
 const locales = Object.freeze(['en', 'ru', 'es']);
@@ -112,7 +112,7 @@ function repositoryUrl() {
   if (sshMatch) return `https://github.com/${sshMatch[1]}`;
   const httpsMatch = raw.match(/^git\+(https:\/\/.+?)(?:\.git)?$/);
   if (httpsMatch) return httpsMatch[1];
-  return 'https://github.com/MakerDrive/cv-v-matiasevich';
+  return 'https://github.com/rnd-pro/cv-v-matiasevich';
 }
 
 function projectTranslation(project, locale) {

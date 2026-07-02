@@ -42,7 +42,7 @@ const PORTFOLIO_LOCALE_STORAGE_KEY = 'cv-v-matiasevich-portfolio-locale';
 const PORTFOLIO_SUPPORTED_LOCALES = ['en', 'ru', 'es'];
 const PORTFOLIO_LINKEDIN_URL = 'https://www.linkedin.com/in/v-matiasevich/';
 const PORTFOLIO_TELEGRAM_URL = 'https://t.me/text2code';
-const PORTFOLIO_ONLINE_CV_URL = 'https://MakerDrive.github.io/cv-v-matiasevich/';
+const PORTFOLIO_ONLINE_CV_URL = 'https://rnd-pro.github.io/cv-v-matiasevich/';
 const PORTFOLIO_PDF_DOWNLOADS = Object.freeze([
   { locale: 'en', href: 'downloads/vladimir-matiasevich-cv-en.pdf' },
   { locale: 'ru', href: 'downloads/vladimir-matiasevich-cv-ru.pdf' },
