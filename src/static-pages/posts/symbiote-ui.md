@@ -15,4 +15,4 @@ links: GitHub|https://github.com/rnd-pro/symbiote-ui|Public source repository; n
 
 Reusable UI system researched for a specific constraint: interfaces should be composable by software and understandable by agents.
 
-It covers graph editors, panel layouts, resource trees, toolbars, provider catalogs, structured UI metadata, and tool-discoverable contracts for agent-facing products.
+It covers graph editors, panel layouts, resource trees, toolbars, provider catalogs, structured UI metadata, and tool-discoverable contracts for agent-facing products. In the current Symbiote line, UI works together with Workspace as the product surface and Engine as the executable R&D layer.

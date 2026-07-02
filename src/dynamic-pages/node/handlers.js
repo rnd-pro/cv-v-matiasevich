@@ -20,8 +20,6 @@ export async function getDataFn(route, url, headers) {
  * @returns
  */
 export async function getRouteFn(url, headers) {
-  //console.log(headers);
-  //console.log(url);
   let route = url.split('?')[0];
   if (!routes[route]) {
     return '/404/';

@@ -3,7 +3,7 @@ title: Lifecycle Messaging Platform
 order: 20
 period: 2022-2026
 kicker: Selected project
-summary: Confidential lifecycle messaging platform for consent-based customer communications, campaign operations, modem-backed SMS runtime, audience segmentation, analytics, and internal workflow automation.
+summary: Confidential lifecycle messaging platform for consent-based customer communications, opt-in SMS scenarios, campaign operations, modem-backed SMS runtime, audience segmentation, analytics, and internal workflow automation.
 image: https://rnd-pro.com/svg/logo/index.svg
 alt: Lifecycle Messaging Platform product surfaces
 ---

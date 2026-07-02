@@ -352,7 +352,9 @@ function writeLocalePdf(locale, projects, fonts) {
   writer.chip(t(locale, 'experience.rnd.label'));
   writer.paragraph(t(locale, 'experience.rnd.details'), { size: 8.45, color: COLORS.muted, after: 0.32 });
   writer.chip(t(locale, 'experience.programming.label'));
-  writer.paragraph(t(locale, 'experience.programming.details'), { size: 8.45, color: COLORS.muted, after: 0.35 });
+  writer.paragraph(t(locale, 'experience.programming.details'), { size: 8.45, color: COLORS.muted, after: 0.32 });
+  writer.chip(t(locale, 'experience.leadership.label'));
+  writer.paragraph(t(locale, 'experience.leadership.details'), { size: 8.45, color: COLORS.muted, after: 0.35 });
 
   writer.section(t(locale, 'pdf.projectsTitle'), { space: 128 });
   const projectBySlug = new Map(projects.map((project) => [project.slug, project]));

@@ -12,7 +12,7 @@ linkLabel: View project
 
 # MEGAVISOR
 
-I was a co-founder and technical director. In the team-built product, my ownership was capture-side R&D around the cloud publishing platform.
+I was a co-founder and CTO. Within the team, I owned capture-side R&D around the cloud publishing platform.
 
 My work covered the shooting process: inventing the 360-degree product photography workflow, developing automation for repeatable capture, creating lighting devices for product shoots, and defining the practical production technology.
 

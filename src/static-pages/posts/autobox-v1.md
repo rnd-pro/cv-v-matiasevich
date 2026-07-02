@@ -23,7 +23,7 @@ I worked on the capture technology line by researching photogrammetry versus las
 
 The prototype moved from lab validation to real museum work. I took part in on-site scanning sessions inside museums and personally scanned the Japanese netsuke collection at the State Hermitage Museum during test production. The same technology line was also used for Benin bronze objects at the Kunstkamera.
 
-The netsuke validation was part of the Objet.art / ArtClub Digital Heritage work for the Hermitage Under a Magnifying Glass project. Ten Japanese netsuke objects were selected with input from Anna Savelyeva, Curator of Japanese Art at the State Hermitage Museum, and British netsuke expert Max Rutherston.
+The netsuke validation was part of the OBJET.art / ArtClub Digital Heritage work for the Hermitage Under a Magnifying Glass project. Ten Japanese netsuke objects were selected with input from Anna Savelyeva, Curator of Japanese Art at the State Hermitage Museum, and British netsuke expert Max Rutherston.
 
 The objects created a strong production test: tiny carved details, himotoshi cord holes, wood, ivory, horn, glossy surfaces, translucent inserts, and complex relief that forced the capture pipeline to solve geometry, texture, color, and material-specific problems at the same time.
 

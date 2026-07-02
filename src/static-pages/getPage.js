@@ -9,7 +9,7 @@ const importmap = getImportMap();
 const SITE_BASE_URL = 'https://MakerDrive.github.io/cv-v-matiasevich/';
 const SITE_OG_IMAGE = `${SITE_BASE_URL}avatar/index.webp`;
 const SITE_DEFAULT_DESCRIPTION =
-  'Vladimir Matiasevich — R&D engineer. Custom AI agent tooling, full-stack Web/Node.js platforms, product systems, and process automation.';
+  'Vladimir Matiasevich — lead AI & full-stack R&D engineer. Custom agent tooling and product platforms, with process automation as a supporting line, individually or with the RND-PRO engineering team.';
 
 function escapeAttr(value = '') {
   return String(value)

@@ -82,7 +82,7 @@ test('project entries expose markdown details in portfolio data', () => {
   assert.match(agentPool?.details || '', /eval-style checks/);
   assert.match(agentPool?.details || '', /cheaper\/faster workers/);
   assert.match(megavisor?.summary || '', /360-degree capture workflows/);
-  assert.match(megavisor?.details || '', /co-founder and technical director/);
+  assert.match(megavisor?.details || '', /co-founder and CTO/);
   assert.match(megavisor?.details || '', /customer warehouses/);
   assert.doesNotMatch(megavisor?.details || '', /^# MEGAVISOR/);
   assert.match(autobox?.details || '', /original capture technology line/);
@@ -91,7 +91,7 @@ test('project entries expose markdown details in portfolio data', () => {
   assert.match(autobox?.details || '', /Anna Savelyeva/);
   assert.match(autobox?.details || '', /Max Rutherston/);
   assert.match(autobox?.details || '', /himotoshi cord holes/);
-  assert.match(complexscan?.details || '', /author product line/);
+  assert.match(complexscan?.details || '', /original product line/);
   assert.match(complexscan?.details || '', /higher-quality source textures/);
   assert.match(PROJECT_TRANSLATIONS.ru['autobox-v1'].details, /авторскую линию технологии съёмки/);
   assert.match(PROJECT_TRANSLATIONS.ru['autobox-v1'].details, /верхней конкурентной планки своего времени/);

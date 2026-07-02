@@ -8,7 +8,7 @@ image: https://rnd-pro.com/svg/logo/index.svg
 alt: Symbiote Node package workspace
 href: https://github.com/rnd-pro/symbiote-node
 linkLabel: View repository
-links: GitHub|https://github.com/rnd-pro/symbiote-node|Public source repository
+links: GitHub|https://github.com/rnd-pro/symbiote-node|Public source repository; npm|https://www.npmjs.com/package/symbiote-node|Published npm package
 ---
 
 # Symbiote Node

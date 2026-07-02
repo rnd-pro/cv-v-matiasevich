@@ -165,24 +165,28 @@ function getProfileSections() {
       title: tPortfolio('profile.careerTitle'),
       items: [
         {
-          label: tPortfolio('profile.career.megavisor.label'),
-          details: tPortfolio('profile.career.megavisor.details'),
-        },
-        {
-          label: tPortfolio('profile.career.photopizza.label'),
-          details: tPortfolio('profile.career.photopizza.details'),
-        },
-        {
-          label: tPortfolio('profile.career.hardware.label'),
-          details: tPortfolio('profile.career.hardware.details'),
-        },
-        {
           label: tPortfolio('profile.career.ai.label'),
           details: tPortfolio('profile.career.ai.details'),
         },
         {
           label: tPortfolio('profile.career.messaging.label'),
           details: tPortfolio('profile.career.messaging.details'),
+        },
+        {
+          label: tPortfolio('profile.career.hardware.label'),
+          details: tPortfolio('profile.career.hardware.details'),
+        },
+        {
+          label: tPortfolio('profile.career.f360.label'),
+          details: tPortfolio('profile.career.f360.details'),
+        },
+        {
+          label: tPortfolio('profile.career.photopizza.label'),
+          details: tPortfolio('profile.career.photopizza.details'),
+        },
+        {
+          label: tPortfolio('profile.career.megavisor.label'),
+          details: tPortfolio('profile.career.megavisor.details'),
         },
       ],
     },
@@ -196,6 +200,10 @@ function getProfileSections() {
         {
           label: tPortfolio('experience.programming.label'),
           details: tPortfolio('experience.programming.details'),
+        },
+        {
+          label: tPortfolio('experience.leadership.label'),
+          details: tPortfolio('experience.leadership.details'),
         },
       ],
     },
@@ -448,16 +456,6 @@ const relationSocket = new Socket('portfolio', {
 
 const skillEntries = [
   {
-    key: 'rnd',
-    id: 'skills/rnd-engineering',
-    label: tPortfolio('skill.rnd.label'),
-    icon: 'science',
-    category: 'server',
-    summary: tPortfolio('skill.rnd.summary'),
-    details: tPortfolio('skill.rnd.details'),
-  },
-  {
-    key: 'agenticAi',
     id: 'skills/agentic-ai',
     label: tPortfolio('skill.agenticAi.label'),
     icon: 'account_tree',
@@ -466,7 +464,14 @@ const skillEntries = [
     details: tPortfolio('skill.agenticAi.details'),
   },
   {
-    key: 'productUi',
+    id: 'skills/rnd-engineering',
+    label: tPortfolio('skill.rnd.label'),
+    icon: 'science',
+    category: 'server',
+    summary: tPortfolio('skill.rnd.summary'),
+    details: tPortfolio('skill.rnd.details'),
+  },
+  {
     id: 'skills/product-ui',
     label: tPortfolio('skill.productUi.label'),
     icon: 'web_asset',
@@ -475,7 +480,6 @@ const skillEntries = [
     details: tPortfolio('skill.productUi.details'),
   },
   {
-    key: 'hardwareCapture',
     id: 'skills/hardware-capture',
     label: tPortfolio('skill.hardwareCapture.label'),
     icon: 'precision_manufacturing',

@@ -15,4 +15,4 @@ links: GitHub|https://github.com/rnd-pro/agent-pool-mcp|Public source repository
 
 Runtime layer for R&D on multi-agent orchestration: delegating work across CLI agents, keeping task ownership visible, tracking process state, handling handoffs, and routing agent sessions through a shared MCP interface.
 
-The public article line describes the same engineering pattern from the execution side: background workers, cross-model consensus, pipelines, bounce-back feedback, session handoff, policies, and groups. The practical goal is to spend stronger model attention on decisions while cheaper/faster workers handle research, structure extraction, routine implementation, validation, and eval-style checks.
+On the execution side, the runtime covers background workers, cross-model consensus, pipelines, bounce-back feedback, session handoff, policies, and groups. The practical goal is to spend stronger model attention on decisions while cheaper/faster workers handle research, structure extraction, routine implementation, validation, and eval-style checks.

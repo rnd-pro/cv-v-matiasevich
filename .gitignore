@@ -3,6 +3,7 @@
 /.vscode
 /.agicoder
 /.qoder
+/.claude
 
 ## system files
 .DS_Store
