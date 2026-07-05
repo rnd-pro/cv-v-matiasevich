@@ -7,7 +7,7 @@ const template = fs.readFileSync('./src/static-pages/page.tpl.html', 'utf8');
 const importmap = getImportMap();
 
 const SITE_BASE_URL = 'https://rnd-pro.github.io/cv-v-matiasevich/';
-const SITE_OG_IMAGE = `${SITE_BASE_URL}avatar/index.webp`;
+const SITE_OG_IMAGE = 'https://rnd-pro.com/idn/93c81af5-aaae-4b92-f288-1f0499726500/public';
 const SITE_DEFAULT_DESCRIPTION =
   'Vladimir Matiasevich — lead AI & full-stack R&D engineer. Custom agent tooling and product platforms, with process automation as a supporting line, individually or with the RND-PRO engineering team.';
 

@@ -796,7 +796,7 @@ function createPortfolioEntries() {
       })),
       focusIds: INITIAL_FOCUS_IDS,
       params: {
-        avatar: './avatar/index.webp',
+        avatar: 'https://rnd-pro.com/idn/93c81af5-aaae-4b92-f288-1f0499726500/public',
         avatarAlt: tPortfolio('profile.avatarAlt'),
         size: 220,
         summary: tPortfolio('profile.summary'),
