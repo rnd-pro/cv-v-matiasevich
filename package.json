@@ -29,7 +29,10 @@
     "write-material-symbols-css": "node ./scripts/write-material-symbols-css.js",
     "generate-pdfs": "node ./scripts/generate-portfolio-pdfs.js",
     "generate-llms": "node ./scripts/generate-llms-txt.js",
-    "build": "npx jsda build && npm run copy-robots && npm run copy-404 && npm run write-material-symbols-css && npm run copy-force-worker && npm run generate-pdfs && npm run generate-llms"
+    "build": "npx jsda build && npm run copy-robots && npm run copy-404 && npm run write-material-symbols-css && npm run copy-force-worker && npm run generate-pdfs && npm run generate-llms",
+    "libs:status": "node ../symbiote-dev-plane/bin/symbiote-libs.js status",
+    "libs:link": "node ../symbiote-dev-plane/bin/symbiote-libs.js link",
+    "libs:unlink": "node ../symbiote-dev-plane/bin/symbiote-libs.js unlink --install"
   },
   "dependencies": {
     "@symbiotejs/symbiote": "3.8.0-webmcp.2",
